@@ -72,6 +72,11 @@ Start the JSON Server
 
 Make sure db.json is in the root of your project.
 
+**### Author**
+
+Akumu Omolo
+GitHub: @AkumuOmolo-SH
+
 ```
 Folder Structure (Relevant) pgsql Copy Edit src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
 ```
