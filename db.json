@@ -1,0 +1,96 @@
+{
+  "goals": [
+
+  {
+    "id": "1",
+    "name": "Travel",
+    "category": "Emergency",
+    "targetAmount": 10000,
+    "savedAmount": 3000,
+    "deadline": "2026-07-30",
+    "createdAt": "2026-06-21",
+    "isCompleted": false
+  },
+  {
+    "id": "ad6e",
+    "name": "Emergency Fund",
+    "category": "Emergency",
+    "targetAmount": 10000,
+    "savedAmount": 7500,
+    "deadline": "2026-06-30",
+    "isCompleted": false
+  },
+  {
+    "id": "a023",
+    "name": "New Laptop",
+    "category": "Electronics",
+    "targetAmount": 1500,
+    "savedAmount": 1500,
+    "deadline": "2024-07-20",
+    "isCompleted": false
+  },
+  {
+    "id": "42cc",
+    "name": "Down-Payment-House",
+    "category": "Real-Estate",
+    "targetAmount": 50000,
+    "savedAmount": 12000,
+    "deadline": "2027-12-31",
+    "isCompleted": false
+  },
+  {
+    "id": "ac8c",
+    "name": "Car Maintenance",
+    "category": "Vehicle",
+    "targetAmount": 800,
+    "savedAmount": 600,
+    "deadline": "2025-09-15",
+    "isCompleted": false
+  },
+  {
+    "id": "c56f",
+    "name": "Education Fund",
+    "category": "Education",
+    "targetAmount": 20000,
+    "savedAmount": 5000,
+    "deadline": "2028-01-01",
+    "isCompleted": false
+  },
+  {
+    "id": "7db1",
+    "name": "Holiday Gifts",
+    "category": "Shopping",
+    "targetAmount": 1000,
+    "savedAmount": 200,
+    "deadline": "2024-10-08",
+    "isCompleted": false
+  },
+  {
+    "id": "4741",
+    "name": "New Phone",
+    "category": "Electronics",
+    "targetAmount": 1200,
+    "savedAmount": 0,
+    "deadline": "2025-03-10",
+    "isCompleted": false
+  },
+  {
+    "id": "f8a3",
+    "name": "Retirement Savings",
+    "category": "Retirement Savings",
+    "targetAmount": 100000,
+    "savedAmount": 15000,
+    "deadline": "2035-01-01",
+    "isCompleted": false
+  },
+  {
+    "id": "07ec",
+    "name": "Home Renovation",
+    "category": "Home",
+    "targetAmount": 7500,
+    "savedAmount": 1000,
+    "deadline": "2025-03-03",
+    "isCompleted": false
+  }
+]
+}
