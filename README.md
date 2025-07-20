@@ -24,7 +24,7 @@ Visual progress bar
 Create, Read, Update, Delete (CRUD) Create new savings goals (e.g., “Travel Fund”, “Emergency Fund”)
 Read and display all goals from db.json
 
-Update:
+**Update:**
 
 -Goal name
 
@@ -51,7 +51,7 @@ Get alerts for:
 
 -Overdue goals (deadline passed and not completed)
 
-Tech Stack Framework: Next.js
+**#Tech Stack Framework: Next.js**
 -State Management: React Hooks
 
 -API Simulation: JSON Server
@@ -61,6 +61,7 @@ Tech Stack Framework: Next.js
 
 Data & Backend All data is stored and served locally using json-server.
 
+---
 
 **#Getting Started**
 
@@ -75,9 +76,20 @@ Make sure db.json is in the root of your project.
 **### Author**
 
 Akumu Omolo
-GitHub: @AkumuOmolo-SH
+GitHub: https://github.com/AkumuOmolo-SH
 
-```
+``
 Folder Structure (Relevant) pgsql Copy Edit src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
-```
+``
+**###  Author**
+
+**Akumu Omolo**  
+GitHub: [@AkumuOmolo-SH](https://github.com/AkumuOmolo-SH)
+
+---
+
+**### License**
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+This project is licensed under the [MIT License](LICENSE).
 
