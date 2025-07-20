@@ -29,8 +29,8 @@ function GoalForm({ onAddNewGoal }) {
       },
       body: JSON.stringify(goalsData),
     })
-      .then((r) => r.json())
-      .then((newGoal) => {
+       .then((r) => r.json())
+       .then((newGoal) => {
         onAddNewGoal(newGoal);
         setName("");
         setCategory("Leisure");
@@ -80,7 +80,7 @@ function GoalForm({ onAddNewGoal }) {
       </label>
 
       <label>
-        Saved (Ksh):
+        Saved(Ksh):
         <input
           type="text"
           name="saved"
@@ -109,7 +109,7 @@ function GoalForm({ onAddNewGoal }) {
         />
       </label>
 
-      <button type="submit">Add</button>
+      <button type="submit">Add Goal</button>
     </form>
   );
 }

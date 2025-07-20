@@ -1,12 +1,14 @@
 'use client';
 
+import GoalForm from "./GoalForm";
 import GoalList from "./GoalList";
-// import Header from "./";
+import Header from "./Header";
 
 export default function HomePage() {
   return (
     <main>
-      {/* <Header /> */}
+      <Header />
+      <GoalForm />
       <GoalList />
     </main>
   );

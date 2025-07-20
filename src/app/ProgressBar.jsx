@@ -1,13 +1,14 @@
 import React from "react";
 
 function ProgressBar({ savedAmount, targetAmount }) {
+
   const progress = Math.min((Number(savedAmount) / Number(targetAmount)) * 100, 100);
 
   return (
     <div>
       <div
         style={{
-          height: "12px",
+          height: "10%",
           width: "100%",
           backgroundColor: "white",
           borderRadius: "4px",
@@ -16,9 +17,11 @@ function ProgressBar({ savedAmount, targetAmount }) {
       >
         <div
           style={{
-            width: `${progress}%`,
+            width:`${progress}%`,
             height: "100%",
-            backgroundColor: "orange",
+
+            backgroundColor: "#8fb449ff "
+,
           }}
         />
       </div>

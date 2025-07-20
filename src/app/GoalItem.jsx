@@ -11,17 +11,20 @@ function GoalItem({ goal, onDeleteGoal, onUpdateGoal, onEditGoal }) {
   
   const [deadlineStatus, setDeadlineStatus] = useState("");
 
+const createdDate = new Date(goal.createdAt);
+
+   const deadlineDate = new Date(deadline);
+const marginMs = deadlineDate - createdDate;
+  const marginDays = Math.floor(marginMs / (1000 * 60 * 60 * 24));
+
+  
  useEffect(() => {
-  const deadlineDate = new Date(deadline);
-  const createdDate = new Date(goal.createdAt);
+ 
 
-  const diffMs = deadlineDate - createdDate;
-  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-
-  if (diffDays < 0) {
+  if (marginDays < 0) {
     setDeadlineStatus("Overdue");
-  } else if (diffDays === 30) {
-    setDeadlineStatus("30 Days to deadline");
+  } else if (marginDays === 30) {
+    setDeadlineStatus("30 Days to left");
   } else {
     setDeadlineStatus("Ongoing");
   }
@@ -31,7 +34,7 @@ function GoalItem({ goal, onDeleteGoal, onUpdateGoal, onEditGoal }) {
     setIsEditing(true);
   }
 
-  function handleEditSave() {
+   function handleEditSave() {
     const updatedGoal = {
       ...goal,
       name,
@@ -109,7 +112,9 @@ function GoalItem({ goal, onDeleteGoal, onUpdateGoal, onEditGoal }) {
           <button onClick={handleDeleteClick}>Delete</button>
         </div>
       )}
-      <p>Status: {deadlineStatus}</p>
+      <p>Status: {deadlineStatus} </p>
+      <p>Days remaining: {marginDays}</p>
+      
       <ProgressBar
         savedAmount={Number(goal.savedAmount)}
         targetAmount={Number(goal.targetAmount)}
