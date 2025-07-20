@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart-Saving-Financial-Planner
 
-## Getting Started
+A savings management dashboard that helps users create, manage, and track progress on financial goals. This website keeps you organized and motivated with real-time goal tracking and progress updates.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**#Features**
+
+Goal Dashboard. View all your financial goals in one place.
+
+Each goal displays:
+
+-Current saved amount
+
+-Target amount
+
+-Time remaining
+
+-Deadline
+
+Status: Ongoing, 30 Days Left, or Overdue
+
+Visual progress bar
+
+Create, Read, Update, Delete (CRUD) Create new savings goals (e.g., “Travel Fund”, “Emergency Fund”)
+Read and display all goals from db.json
+
+Update:
+
+-Goal name
+
+-Target amount
+
+-Saved amount (via deposit)
+
+-Deadline
+
+-Category
+
+-Delete goals and instantly update the UI
+
+Persistent updates via PATCH requests to the backend
+
+Progress Bar Logic
+
+-This is capped at 100% and rendered with a dynamic progress bar.
+
+Deadline Warnings -See how much time is left to complete each goal
+Get alerts for:
+
+-Goals with deadlines within 30 days
+
+-Overdue goals (deadline passed and not completed)
+
+Tech Stack Framework: Next.js
+-State Management: React Hooks
+
+-API Simulation: JSON Server
+
+
+-Data Format: Local db.json file
+
+Data & Backend All data is stored and served locally using json-server.
+
+
+**#Getting Started**
+
+Clone the Repo
+
+Install Dependencies
+
+Start the JSON Server
+
+Make sure db.json is in the root of your project.
+
+```
+Folder Structure (Relevant) pgsql Copy Edit src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
