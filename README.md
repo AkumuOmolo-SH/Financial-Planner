@@ -31,8 +31,8 @@ Read and display all goals from db.json
 
 -Target amount
 
--Saved amount (via deposit)<img width="1833" height="925" alt="Screenshot from 2025-07-21 01-17-10" src="https://github.com/user-attachments/assets/05332b51-021e-40d0-b73a-a55e75b99373" />
-<img width="1833" height="925" alt="Screenshot from 2025-07-21 01-17-10" src="https://github.com/user-attachments/assets/83c5e6f2-c7e0-4dcb-b90b-c47cbab8566d" />
+-Saved amount (via deposit)
+
 
 
 -Deadline
@@ -75,6 +75,10 @@ Install Dependencies
 Start the JSON Server
 
 Make sure db.json is in the root of your project.
+
+---
+**#Preview**
+<img width="1833" height="925" alt="Screenshot from 2025-07-21 01-17-10" src="https://github.com/user-attachments/assets/83c5e6f2-c7e0-4dcb-b90b-c47cbab8566d" />
 
 **### Author**
 
