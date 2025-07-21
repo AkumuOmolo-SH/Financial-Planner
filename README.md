@@ -82,10 +82,8 @@ Deployed link: https://financial-planner-3izi3im51-akumuomolo-shs-projects.verce
 **#Preview**
 <img width="1833" height="925" alt="Screenshot from 2025-07-21 01-17-10" src="https://github.com/user-attachments/assets/83c5e6f2-c7e0-4dcb-b90b-c47cbab8566d" />
 
-**### Author**
 
-Akumu Omolo
-GitHub: https://github.com/AkumuOmolo-SH
+
 
 ``
 Folder Structure (Relevant) pgsql Copy Edit src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
