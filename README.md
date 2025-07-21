@@ -54,6 +54,8 @@ Get alerts for:
 
 -Overdue goals (deadline passed and not completed)
 
+---
+
 **#Tech Stack Framework: Next.js**
 -State Management: React Hooks
 
