@@ -78,7 +78,7 @@ Start the JSON Server
 
 Make sure db.json is in the root of your project.
 
-Deployed link: https://financial-planner-3izi3im51-akumuomolo-shs-projects.vercel.app/
+Deployed link: [https://financial-planner-3izi3im51-akumuomolo-shs-projects.vercel.app/](https://financial-planner-1efr1w9e6-akumuomolo-shs-projects.vercel.app/)
 
 ---
 **#Preview**
