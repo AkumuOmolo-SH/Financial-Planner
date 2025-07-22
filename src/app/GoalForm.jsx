@@ -22,7 +22,7 @@ function GoalForm({ onAddNewGoal }) {
       isCompleted: false,
     };
 
-    fetch("http://localhost:3001/goals", {
+    fetch("https://backend-financial-planner.onrender.com/goals", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

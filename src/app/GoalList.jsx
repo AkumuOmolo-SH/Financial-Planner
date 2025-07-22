@@ -16,7 +16,7 @@ function GoalsList() {
  
 
   useEffect(() => {
-    fetch("http://localhost:3001/goals")
+    fetch("https://backend-financial-planner.onrender.com/goals")
       .then((r) => r.json())
       .then((data) => setGoals(data));
   }, []);

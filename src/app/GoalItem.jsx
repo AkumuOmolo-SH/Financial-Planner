@@ -43,7 +43,7 @@ const marginMs = deadlineDate - createdDate;
       deadline,
     };
 
-    fetch(`http://localhost:3001/goals/${goal.id}`, {
+    fetch(`https://backend-financial-planner.onrender.com/goals/${goal.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -58,7 +58,7 @@ const marginMs = deadlineDate - createdDate;
   }
 
   function handleDeleteClick() {
-    fetch(`http://localhost:3001/goals/${goal.id}`, {
+    fetch(`https://backend-financial-planner.onrender.com/goals/${goal.id}`, {
       method: "DELETE",
     }).then(() => onDeleteGoal(goal));
   }
