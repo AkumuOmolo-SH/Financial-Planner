@@ -87,11 +87,11 @@ Deployed link: [https://financial-planner-3izi3im51-akumuomolo-shs-projects.verc
 
 
 
-``
+```
 
-Folder Structure (Relevant) pgsql Copy Edit src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
+Folder Structure  src/ ├── app/ │ ├── components/ │ │ ├── GoalForm.jsx │ │ ├── GoalItem.jsx │ │ ├── GoalsList.jsx │ │ ├── ProgressBar.jsx │ └── page.js ├── db.json ├── global.css
 
-``
+```
 ---
 
 **###  Author**
